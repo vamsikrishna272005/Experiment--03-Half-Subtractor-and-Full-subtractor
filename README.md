@@ -12,8 +12,8 @@ Subtractor circuits take two binary numbers as input and subtract one binary num
 ## Half Subtractor Full Subtractor
 ## Half Subtractor
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed.
-![half-subtractor9](https://user-images.githubusercontent.com/36288975/166112538-58c3bc7c-ee5d-4e6a-ac8d-8e8328efe27a.png)
 
+![Screenshot 2023-11-26 143908](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/779bd6f1-0888-4ae7-ac79-5db19f7a690e)
 
 Sum = X'Y+XY' = X ⊕ Y
 Carry=X'Y
@@ -28,6 +28,7 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 ## Procedure
 ![Screenshot 2023-11-26 163847](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/f3c622ed-275b-47a2-a6df-4af4a473d73e)
 
+![Screenshot 2023-11-26 144204](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/fc405dd8-681d-45fc-83c8-8cc9f28670d4)
 
 
 Write the detailed procedure here 
@@ -51,6 +52,7 @@ RegisterNumber:
 
 ## Timing diagram 
 ![Screenshot 2023-11-26 150532](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/6361b752-0613-40e2-9e17-a6e56e9a1d8a)
+![Screenshot 2023-11-26 143851](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/ba9a31d6-a072-497b-bf9a-4a5080abf90e)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
