@@ -44,6 +44,8 @@ RegisterNumber:
 ## Output:
 
 ## Truthtable
+![download](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/246e8302-008a-45b2-8c96-06740bcd95a1)
+![download](https://github.com/vamsikrishna272005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147477015/9242166e-b40d-4eed-b051-a3c52fc97fdb)
 
 
 
